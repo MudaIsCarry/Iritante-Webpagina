@@ -187,25 +187,3 @@ setTimeout(jumpscare, 10000);
     invisibleButton.addEventListener("click", function() {
       location.href = "https://gamesathletes.com/ce/ce_1020/land_ce_121020_na_en/?landing=modest&haff_pid=5&haff_oid=16&haff_cid=4bb100007a782361&haff_sub1=5573682&haff_sub2=&haff_sub3=&haff_tag=cpa&utm_source=hooligan";
     });
-
-    // Get the container element
-const container = document.getElementById("container");
-
-// Get all the spinner elements
-const spinners = document.querySelectorAll(".spinner");
-
-// Set the initial angle for each spinner
-spinners.forEach((spinner, index) => {
-  spinner.angle = (360 / spinners.length) * index;
-});
-
-// Function to rotate the spinners
-function rotateSpinners() {
-  spinners.forEach((spinner) => {
-    spinner.angle += 1;
-    spinner.style.transform = `rotate(${spinner.angle}deg)`;
-  });
-}
-
-// Start the animation
-setInterval(rotateSpinners, 10);

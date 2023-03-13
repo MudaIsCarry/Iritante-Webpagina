@@ -24,7 +24,7 @@ grid-row-gap: 0px;
 .div1 { grid-area: 1 / 1 / 2 / 2; 
         font-size: larger;
         font-family: bigBeautifullFonts, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-image: url(img/gif1.gif);
+        background-image: url(/CSS\ Irritante\ Webpagina);
         background-repeat: repeat;
         background-size: 36%;
         color: red;

@@ -13,15 +13,15 @@ body {
     height: 100vh;
 }
 
-.parent {
+.maingrid {
 display: grid;
 grid-template-columns: repeat(2, 50%);
-grid-template-rows: 999px;
+grid-template-rows: 9999px;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 2; 
+.links { grid-area: 1 / 1 / 2 / 2; 
         font-size: larger;
         font-family: bigBeautifullFonts, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-image: url(/irritantewebpagina/img/gif1.gif);
@@ -32,7 +32,7 @@ grid-row-gap: 0px;
         text-shadow: 0 5px rgba(0, 0, 0, .5);
       }
 
-.div2 { grid-area: 1 / 2 / 2 / 3; 
+.rechts { grid-area: 1 / 2 / 2 / 3; 
         background-image: url(/irritantewebpagina/img/skull.gif);
         background-repeat: repeat;
         background-size: 36%;
@@ -293,19 +293,4 @@ p {
       left: 0;
       width: 100%;
       height: 100%;
-    }
-
-    #container {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-    
-    .spinner {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 250px;
-      height: auto;
     }

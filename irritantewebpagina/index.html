@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-   
+<html>  
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -9,57 +9,50 @@
   <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
   <script src="https://kit.fontawesome.com/52c5a9644c.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  
+  <!--De code voor de jumpscare-->
   <div id="jumpscare">
     <img src="img/scary_image.gif" alt="jumpscare">
     <audio id="scream" src="sound/scream.mp3" preload="auto"></audio>
-</div>
+  </div>
 
+  <!--De "ontzichtbare knop" die de hele pagina opneemt op een paar elementen na die je naar de spicy website sturen-->
   <div id="invisible-button"></div>
 
-    <div class="parent">
+<!--De maingrid zorgt er eigenlijk puur voor dat de website in 2 gelijke delen wordt opgedeelt wordt.-->
+<div class="maingrid">
 
-        <div class="div1"> 
+    <!--De linkerkant van de webpagina, deze bevat tekst met een typewriter effect.-->
+    <div class="links"> 
+      <div id="typedtext"></div>
+    </div>
 
-          <div id="typedtext"></div>
+    <!--De rechterkant van de webpagina, deze bevat de slideshow-container.-->
+    <div class="rechts">
+        <div class="slideshow-container">
 
-          </div>
-
-        <div class="div2">
-          
-          <div class="slideshow-container">
-
-            <div class="mySlides fade">
-              <img src="img/gif5.gif" style="width:300px" height="300px">
-            </div>
+              <!--De verschillende fotos bij de slideshow.-->
+              <div class="mySlides fade">
+                <img src="img/gif5.gif" style="width:300px" height="300px">
+              </div>
             
-            <div class="mySlides fade">
-              <img src="img/gif2.gif" style="width:300px" height="300px">
-            </div>
+              <div class="mySlides fade">
+                <img src="img/gif2.gif" style="width:300px" height="300px">
+              </div>
             
-            <div class="mySlides fade">
-              <img src="img/gif4'.gif" style="width:300px" height="300px">
-            </div>
+              <div class="mySlides fade">
+                <img src="img/gif4'.gif" style="width:300px" height="300px">
+              </div>
 
-            <div class="mySlides fade">
-                <img src="img/hm1.gif" style="width:300px" height="300px">
-            </div>   
+              <div class="mySlides fade">
+                  <img src="img/hm1.gif" style="width:300px" height="300px">
+              </div>  
 
-            <div id="container">
 
-              <img src="img/hm1.gif" class="spinner">
-              <img src="img/scary_image.gif" class="spinner">
-              <img src="img/gif2.gif" class="spinner">
-              <img src="img/gif3.gif" class="spinner">
-            </div>
-          
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div> 
-<br>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div> 
 
 <!-- The dots/circles -->
 <div style="text-align:center">
@@ -67,12 +60,19 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
-</div>
+</div> 
+          </div>
+
+          <div class="draaien">
+           
+          </div>  
+
+
     </div>
     <script src='/irritantewebpagina/js/sricpt.js'></script>
   </div>
 
-
+</div>
 </body>
 
 <footer class="fixed"> <iframe width="500" height="300"  src="https://www.youtube.com/embed/AyOqGRjVtls?autoplay=1&" title="Kermit is Never Gonna Give You Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></footer>

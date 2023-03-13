@@ -13,13 +13,16 @@ body {
     height: 100vh;
 }
 
+
 .maingrid {
 display: grid;
 grid-template-columns: repeat(2, 50%);
 grid-template-rows: 9999px;
+grid-template-rows: 9999px;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
+
 
 .links { grid-area: 1 / 1 / 2 / 2; 
         font-size: larger;

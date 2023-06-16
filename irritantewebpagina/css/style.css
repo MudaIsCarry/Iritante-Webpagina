@@ -15,6 +15,7 @@ body {
 
 /* grid container */
 .maingrid {
+  height: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: 100%;
@@ -29,7 +30,7 @@ body {
   font-family: bigBeautifullFonts, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url(/irritantewebpagina/img/gif1.gif);
   background-repeat: repeat;
-  background-size: 36%;
+  background-size: 50%;
   color: red;
   text-align: center;
   text-shadow: 0 5px rgba(0, 0, 0, .5);
@@ -39,7 +40,7 @@ body {
   grid-area: 1 / 2 / 2 / 3; 
   background-image: url(/irritantewebpagina/img/skull.gif);
   background-repeat: repeat;
-  background-size: 36%;
+  background-size: 50%;
 }
 
 /* font for the text */
@@ -50,13 +51,14 @@ body {
 
 .slideshow-container {
   margin: 20px;
-  height: 300px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
   align-items: auto;
 }
       
 .mySlides {
   display: none;
+  
 }
       
 .prev, .next {
